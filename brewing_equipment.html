@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+        <div class="main-header">
+            <div class="logo">
+                <img src="image/logo.png" alt="" style="width:50px; vertical-align:middle;">
+                <span>Bean Boutique</span>
+            </div>
+            <div id="nav_bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="coffee_selection.html">Coffee Selection</a></li>
+                    <li><a href="brewing_equipment.html">Brewing Equipment</a></li>
+                    <li><a href="events_workshops.html">Event & Workshops</a></li>
+                    <li><a href="specialoffers.html">Special Offers</a></li>
+                    <li><a href="shopping_cart.html"><img src="https://www.citypng.com/public/uploads/preview/hd-shopping-cart-white-logo-icon-transparent-png-701751694973936amdcratijm.png" width="20" alt="brewing-section"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="selection">
+            <h2>Brewing Equipments</h2>
+            <p>Professional tools for the perfect cup at home</p>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="image/espresso.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Espresso</button>
+                    <h3>Professional Espresso Machine</h3>
+                    <p class="origin">15 bar pump, dual boiler system, professional grade</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">99000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Professional Espresso Machine',99000,'espresso.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/pourover.webp" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Pour Over</button>
+                    <h3>Pour Over Coffee Maker</h3>
+                    <p class="origin">Glass carafe, stainless steel filter, 6-cup capacity</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">89000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Pour Over Coffee Maker',89000,'pourover.webp')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/burr.avif" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Grinder</button>
+                    <h3>Precision Burr Grinder</h3>
+                    <p class="origin">40 grind settings, conical burr, consistent results</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">79000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Precision Burr Grinder',79000,'burr.avif')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/french.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">French Press</button>
+                    <h3>French Press</h3>
+                    <p class="origin">Borosilicate glass, 8-cup capacity, stainless steel</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">59000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('French Press',59000,'french.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/kettle.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Kettle</button>
+                    <h3>Electric Kettle with Temperature Control</h3>
+                    <p class="origin">Variable temp, gooseneck spout, 1L capacity</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">50000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Electric Kettle with Temperature Control',50000,'kettle.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/coldbrew.webp" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Cold Brew</button>
+                    <h3>Cold Brew Coffee Maker</h3>
+                    <p class="origin">1.5L capacity, built-in filter, 24-hour brew</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">70000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Cold Brew Coffee Maker',70000,'coldbrew.webp')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/milk.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Accessories</button>
+                    <h3>Milk Frother</h3>
+                    <p class="origin">Hot and cold froth, automatic, dishwasher safe</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">50000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Milk Frother',50000,'milk.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/coffeemaker.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Aeropress</button>
+                    <h3>Aeropress Coffee Maker</h3>
+                    <p class="origin">Portable, quick brew, includes 350 filters</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">80000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Aeropress Coffee Maker',80000,'coffeemaker.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/stovetop.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Stovetop</button>
+                    <h3>Moka Pot (Stovetop Espresso)</h3>
+                    <p class="origin">6-cup aluminum, traditional Italian design</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">60000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Moka Pot (Stovetop Espresso)',60000,'stovetop.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/scale.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Accessories</button>
+                    <h3>Coffee Scale with Timer</h3>
+                    <p class="origin">0.1g precision, built-in timer, waterproof</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">40000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Coffee Scale with Timer',40000,'scale.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/grinder.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Grinder</button>
+                    <h3>Manual Coffee Grinder</h3>
+                    <p class="origin">Ceramic burr, portable, adjustable grind</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">20000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Manual Coffee Grinder',20000,'grinder.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="image/siphon.jpg" alt="Coffee">
+                <div class="card-content">
+                    <button class="brew-btn">Siphon</button>
+                    <h3>Siphon Coffee Maker</h3>
+                    <p class="origin">Vacuum brewing, glass construction, includes burner</p>
+                    <a href="#" class="brew-card-alink">! View Details & Usage Tips</a>
+                    <div class="card-footer">
+                        <span class="price">40000 MMK</span>
+                        <button class="add-btn" onclick="addToCart('Siphon Coffee Maker',40000,'siphon.jpg')"><i class="cart-icon"></i> Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="search-google">
+            <form action="https://www.google.com/search" method="GET" target="_blank">
+                <input type="text" name="q" placeholder="Search coffee types and brewing equipments ....">
+                <button type="submit">Search Google</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <div class="flex-footer">
+                <div class="footer-box">
+                    <h2>Bean Boutique</h2>
+                    <p>Premium coffee beans and equipment for the perfect brew.</p>
+                </div>
+                <div class="footer-box">
+                    <h2>Contact</h2>
+                    <p>123 Yankin Street</p>
+                    <p>Yangon, WA 1100</p>
+                    <p>info@beanboutique.com</p>
+                </div>
+                <div class="footer-box">
+                    <h2>Hours</h2>
+                    <p>Mon-Fri: 7am - 7pm</p>
+                    <p>Sat-Sun: 8am - 8pm</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
